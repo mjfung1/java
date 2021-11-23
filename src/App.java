@@ -62,6 +62,7 @@ public class App {
         */
 
         // arrayLists
+        /*
         ArrayList <Integer> unluckyNumbers = new ArrayList<>();
         unluckyNumbers.add(7);
         unluckyNumbers.add(17);
@@ -76,5 +77,16 @@ public class App {
         for (int num : unluckyNumbers) {
             System.out.println("the unlucky number is " + num);
         }
+
+        */
+
+
+        CaveMan c1 = new CaveMan("peter", 40, 300f);
+        CaveMan c2 = new CaveMan();
+        System.out.println(c1.getName());
+        c2.setName("julio");
+        System.out.println(c2.getName());
+
+
     }
 }
